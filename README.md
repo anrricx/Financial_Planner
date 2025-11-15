@@ -1,57 +1,90 @@
-# 📊 Financial Portfolio Planning Dashboard  
-A professional full-stack investment planning platform inspired by Fidelity / Vanguard dashboards.  
-Built with **React + Vite + TailwindCSS**, **Node.js + Express**, and **TypeScript** across the stack.
+<img width="2870" height="1444" alt="FinancialPort5" src="https://github.com/user-attachments/assets/f5107298-5151-4bb0-af73-a8304e67bd9b" />
+<img width="2880" height="1460" alt="FinancialPortfolio" src="https://github.com/user-attachments/assets/163e0c0a-8cd1-46be-a393-62c9ddca470c" />
+<img width="2874" height="1460" alt="FinancialPort4" src="https://github.com/user-attachments/assets/dbbed546-f484-4b39-a905-c06d4f6c32f0" />
+<img width="2870" height="1458" alt="FinancialPort3" src="https://github.com/user-attachments/assets/7deb4ea0-b741-4129-b2c6-2918fa1d522d" />
+<img width="2872" height="1450" alt="FinancialPort2" src="https://github.com/user-attachments/assets/7081ee5c-9f63-42b6-9fdf-abb51762da56" />
+📈 Financial Portfolio Planner
 
-This tool helps users:
-- Allocate their investments based on risk level  
-- Visualize portfolio composition  
-- View projected future value over 1, 2, 5, and 10 years  
-- Access a clean Fidelity-style UI  
-- Analyze long-term financial growth  
+A small personal project I'm building to learn full-stack development.
 
-Future updates include monthly investment calculators, goal-based investing, comparison charts,
-market conditions, and user accounts.
+This is a hobby project I started to practice React, TypeScript, Firebase, and backend APIs.
+It’s basically a simple investment calculator that lets you:
 
----
+- Create portfolios
 
-## 🚀 Live Demo (Coming Soon)
-Once deployed:
+- See allocation breakdowns
 
-**🔗 Frontend:** https://YOUR-APP.vercel.app  
-**🔗 Backend API:** https://YOUR-BACKEND.onrender.com
+- View compound growth projections
 
----
+- Save portfolios to your own account
 
-## 🧠 Features
+Nothing crazy — just something I’m using to learn how real full-stack apps work.
 
-### ✅ **1. Portfolio Allocation Engine**
-Automatically builds optimized portfolios based on user risk score.
+🛠️ Tech I Used
 
-- **Low Risk:** Bonds + Index Funds  
-- **Moderate Risk:** Index Funds + Tech + Value  
-- **High Risk:** Tech + Growth + Emerging Markets  
+Frontend: React, TypeScript, Vite, Tailwind
+Backend: Node.js + Express (for allocation calculations)
+Auth + Database: Firebase Auth + Firestore
+Other: Recharts, Git/GitHub, Cursor
 
-### ✅ **2. Future Value Projection Calculator**
-Uses compound growth formulas to estimate portfolio values for:
+🚀 What It Does
 
-- 1 year  
-- 2 years  
-- 5 years  
-- 10 years  
+- User login/signup
 
-### ✅ **3. Interactive Dashboard**
-- Clean Fidelity-inspired UI  
-- Pie charts for allocations  
-- Summary cards for projections  
-- Multi-page sidebar navigation  
+- Portfolio builder with allocation inputs
 
-### 🔜 Coming Soon (In Development)
-- Monthly investment calculator  
-- Goal-based investing (retirement / home / emergency fund)  
-- Portfolio comparison vs. S&P 500, QQQ, and 60/40  
-- Market conditions page (CPI, VIX, rates, S&P500)  
-- User authentication (Firebase)  
-- Saving portfolios to database  
-- Complete analytics dashboard  
+- Growth projections (1, 2, 5, 10 years)
+
+- Interactive charts
+
+- Save/load portfolios
+
+- Simple dashboard UI
+
+🎯 Why I Built This
+
+Just wanted a project I could:
+
+- Practice real React component structure
+
+- Learn Firebase authentication
+
+- Work with a database
+
+- Build an actual dashboard with charts
+
+- Get better at deployment + Git workflow
+
+🔧 How to Run It
+
+# clone
+git clone https://github.com/anrricx/Financial_Planner.git
+
+# install
+cd frontend
+npm install
+
+# add .env file (Firebase config)
+VITE_FIREBASE_API_KEY=...
+VITE_FIREBASE_AUTH_DOMAIN=...
+...etc
+
+# run
+npm run dev
+
+📌 Future Things I Might Add (if I feel like it)
+
+- Dark mode
+
+- Better mobile layout
+
+- More chart types
+
+- Export to PDF
 
 
+
+
+GitHub: https://github.com/anrricx
+
+LinkedIn: https://www.linkedin.com/in/anrric-xu-832960317/
